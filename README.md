@@ -1,11 +1,11 @@
 # ⚡️ Vite + React + TypeScript + Jest + RTL Setup
 Welcome, code wizard! 🧙‍♂️
 
-This repo is your one-stop guide to setting up a modern front-end stack with:
+This repo is your **one-stop guide** to setting up a modern front-end stack with:
 
-Vite + React + TypeScript + Jest + React Testing Library
+> **Vite + React + TypeScript + Jest + React Testing Library**
 
-Whether you're just diving into testing or leveling up your Vite project
+Whether you're just diving into testing or leveling up your Vite project 🎥.
 
 ## 🛠 Prerequisites
 Make sure you have the following installed:
@@ -13,14 +13,15 @@ Make sure you have the following installed:
  - 🟢 Node.js
  - 📦 npm (Node Package Manager)
 
-## Setup Guide 🧱 Let's Build the Stack
+
+## 🧱 Let's Build the Stack
 Follow these steps to set up Jest and React Testing Library in your Vite project.
 
 ### 1. Install Jest and TypeScript Types
 First, install Jest and its TypeScript types:
 
 ```js 
-   npm install --save-dev jest @types/jest 
+npm install --save-dev jest @types/jest 
 ```
 
 ### 2. Add Test Script
@@ -163,7 +164,7 @@ Run your tests like a boss:
 ```bash 
 npm run test:cov
 ```
-You'll get test results and a coverage report!
+You'll get test results **and** a coverage report!
 
 ## 🎉 All Set!
 You now have a complete modern testing setup with:
@@ -172,4 +173,6 @@ You now have a complete modern testing setup with:
 - 🔒 TypeScript safety
 - 🧪 Unit + UI tests with RTL
 - 📊 Code coverage with Jest
-Happy testing! 
+  
+Happy testing 🎊
+> *“A good test is worth a thousand debugger sessions.”* 😎
