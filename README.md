@@ -11,14 +11,14 @@ Make sure you have the following installed:
 ## Setup Guide
 Follow these steps to set up Jest and React Testing Library in your Vite project.
 
-# 1. Install Jest and TypeScript Types
+### 1. Install Jest and TypeScript Types
 First, install Jest and its TypeScript types:
 
 ```js 
    npm install --save-dev jest @types/jest 
 ```
 
-# 2. Add Test Script
+### 2. Add Test Script
 Add the following "test" script to your package.json file:
 
 ```js 
@@ -28,7 +28,7 @@ Add the following "test" script to your package.json file:
 }
 ```
 
-# 3. Install React Testing Library
+### 3. Install React Testing Library
 Install React Testing Library and its dependencies:
 
 ```js 
@@ -37,7 +37,7 @@ npm install --save-dev @testing-library/jest-dom
 npm install --save-dev @testing-library/user-event
 ```
 
-# 4. Install Babel and Other Dependencies
+### 4. Install Babel and Other Dependencies
 Install Babel and other necessary dependencies:
 
 ```js 
@@ -50,7 +50,7 @@ npm install --save-dev identity-obj-proxy
 npm install --save-dev jest-environment-jsdom
 ```
 
-# 5. Configure Jest
+### 5. Configure Jest
 Add the following Jest configuration to your package.json file:
 
 ```js 
@@ -85,7 +85,7 @@ Add the following Jest configuration to your package.json file:
   }
 ```  
 
-# 6. Create Setup File
+### 6. Create Setup File
 Create a file named setup-test.ts in the root of your project and add the following code:
 
 ```js 
@@ -105,7 +105,7 @@ module.exports = {
 };
 ```
 
-# 8. Update your ts.config.json file
+### 8. Update your ts.config.json file
 
 ```js 
 {
@@ -129,26 +129,26 @@ module.exports = {
 }
 ```
 
-# 9. Create Mocks for Static Assets
+### 9. Create Mocks for Static Assets
 Create a folder named mocks in your root directory and add a file named fileMock.js with the following content:
 
 ```js
 module.exports = 'test-file-stub';
 ```
 
-# 10. Update .gitignore
+### 10. Update .gitignore
 Add the following line to your .gitignore file to ignore coverage reports:
 
 coverage
 
-# 11. Install ts-jest and ts-node
+### 11. Install ts-jest and ts-node
 Install ts-jest and ts-node to enable TypeScript support in Jest:
 
 ```js 
 npm install --save-dev ts-jest ts-node
 ```
 
-# Running Tests
+### Running Tests
 To run the tests, use the following command:
 
 npm run test:cov
